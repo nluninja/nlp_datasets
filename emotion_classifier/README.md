@@ -5,8 +5,9 @@ Entries:
 Classes: sadness, joy, sadness, anger, fear, love, surprise
 
 ## Format
-|Column | Description |
-| Size  | text size | 
+| Colum | Description        |
+| ----- | ------------------ |
+| Size | text size | 
 | text | text content |
 | emotion | emotion category |
 
