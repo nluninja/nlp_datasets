@@ -9,9 +9,11 @@ git clone https://github.com/nluninja/nlp_datasets
 
 ## Available datasets
 
-| Name | Description | classes | format |
-| ---- | ----------- | ------- | ------ |
-| [`emotions dataset`](./emotion_classification_dataset/README.md) | emotion classification dataset which contains tweets labeled into 6 categories | joy, sadness, anger, fear, love, surprise | csv |
+| Name | Description | classes | format | language |
+| ---- | ----------- | ------- | ------ | -------- |
+| [`emotions dataset`](./emotion_classification_dataset/README.md) | emotion classification dataset which contains tweets labeled into 6 categories | joy, sadness, anger, fear, love, surprise | csv | en
+| [`CONLL 2003`](./conll2003/README.md) | named entity recognition dataset | people, places, organization, misc | text / conll |
+
 
 I appreciate your contribution to this repo, so don't hesitate to submit your changes via pull request for bug fixing or for adding a new dataset as well as well! 
 
