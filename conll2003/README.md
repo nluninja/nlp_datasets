@@ -1,7 +1,8 @@
 # CONLL 2003 - Named Entity Extraction
-**Description**: CoNLL-2003 dataset has been designed for language-independent named entity recognition. The dataset provides token level annotation for pos, chunks and named entities. The original data files have -DOCSTART- lines used to separate documents, but these lines are removed here. Indeed -DOCSTART- is a special line that acts as a boundary between two different documents, and it is filtered out in this implementation.
-**Format**: text - CoNLL 2003 - IOB2
-**Entries**:  train 14041 |	test 3250 | valid 3453
+**Description**: CoNLL-2003 dataset has been designed for language-independent named entity recognition. The dataset provides token level annotation for pos, chunks and named entities. The original data files have -DOCSTART- lines used to separate documents, but these lines are removed here. Indeed -DOCSTART- is a special line that acts as a boundary between two different documents, and it is filtered out in this implementation.  
+**Format**: text - CoNLL 2003 - IOB2  
+**Entries**:  train 14041 |	test 3250 | valid 3453  
+**URL**: https://www.aclweb.org/anthology/W03-0419/
 
 ## Format
 | Column | Description        |
