@@ -1,7 +1,3 @@
-sadness
-joy
-sadness
-anger
-fear
-love
-surprise
+version https://git-lfs.github.com/spec/v1
+oid sha256:b64d5efb0116226a4edf544c4311516a2fa0b82c49e672f45838268328c7ad68
+size 50
