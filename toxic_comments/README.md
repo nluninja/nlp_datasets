@@ -13,10 +13,16 @@ The dataset has been published as part of a Kaggle Challenge, which asked data s
 ## Format
 | Column | Description        |
 | ----- | ------------------ |
-
-|class_id | a number from 1 to 4 - 1 represents World, 2 represents Sports, 3 represents Business and 4 represents Sci/Tech. |
-|title| the news title|
-|description | the news content |
+|comment_text| text content|
+|id| text content identifier|
+|identity_hate|a score value for identity_hate|
+|insult|a score value for insult|
+|obscene|a score value for obscene|
+|severe_toxic|a score value for severe_toxic|
+|threat|a score value for threat|
+|toxic| a score value for toxic|
+|toxicity| a score for toxicity|
+|set| the train/test set|
 
 ### Example
 <pre>
