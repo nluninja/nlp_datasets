@@ -1,5 +1,5 @@
 # Toxic Comments Classification Dataset - Classification
-**Description**
+##Description
 
 The Toxic Comments Classification Dataset consists of a large number of Wikipedia comments which have been labeled by human raters for toxic behavior.   
 
@@ -7,10 +7,16 @@ The dataset has been provided by the Conversation AI team, a research initiative
 
 The dataset has been published as part of a Kaggle Challenge, which asked data scientists to build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate better than AI Team’s current models. 
 
-**Entries**:  train xx  |	test xx
-**URL**: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
+##File Format**
+text - csv  
+##Entries
+train xx  |	test xx  
 
-## Format
+##URL 
+https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
+
+##Data Format
+
 | Column | Description        |
 | ----- | ------------------ |
 |comment_text| text content|
@@ -24,7 +30,7 @@ The dataset has been published as part of a Kaggle Challenge, which asked data s
 |toxicity| a score for toxicity|
 |set| the train/test set|
 
-### Example
+## Example
 <pre>
 comment_text,id,identity_hate,insult,obscene,set,severe_toxic,threat,toxic,toxicity
 explanation why the edits made under my username hardcore metallica fan were reverted  they weren t vandalisms  just closure on some gas after i voted at new york dolls fac  and please don t remove the template from the talk page since i m retired now ,0000997932d777bf,0.0,0.0,0.0,train,0.0,0.0,0.0,0.0

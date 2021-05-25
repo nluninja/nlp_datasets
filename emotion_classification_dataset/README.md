@@ -1,15 +1,16 @@
 # Emotions Classification Dataset
+**Description**
 
-format: CSV - comma separated
-Entries:  
-Classes: sadness, joy, sadness, anger, fear, love, surprise
 
-## Format
+File Format:** csv - comma separated
+**Entries:**
+
+### Data Format
 | Column | Description        |
 | ----- | ------------------ |
 | Size | text size | 
 | text | text content |
-| emotion | emotion category |
+| emotion | emotion category: sadness, joy, sadness, anger, fear, love, surprise |
 
 
 ### Example 
