@@ -7,8 +7,9 @@ The dataset has been provided by the Conversation AI team, a research initiative
 
 The dataset has been published as part of a Kaggle Challenge, which asked data scientists to build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate better than AI Team’s current models. 
 
-##File Format**
+##File Format
 text - csv  
+
 ##Entries
 train xx  |	test xx  
 
@@ -16,7 +17,6 @@ train xx  |	test xx
 https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
 
 ##Data Format
-
 | Column | Description        |
 | ----- | ------------------ |
 |comment_text| text content|
