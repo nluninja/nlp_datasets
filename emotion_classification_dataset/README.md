@@ -1,8 +1,9 @@
 # Emotions Classification Dataset
 ## Description
-
+A corpus for emotions classification with respect to 6 categories.
 
 ## Entries
+lines: 416810
 
 ## File Format
 text - csv

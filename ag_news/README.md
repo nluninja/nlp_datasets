@@ -16,7 +16,7 @@ The files train.csv and test.csv contain all the training samples as comma-separ
 
 
 ## Entries
-train 120,000  |	test 7,600   
+train 120,001  | test 7,553   
 
 ## URL
 http://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html
