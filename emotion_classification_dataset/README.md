@@ -2,12 +2,11 @@
 ## Description
 
 
-## File Format
-csv - comma separated
-
 ## Entries
 
-## Data Format
+## File Format
+text - csv
+
 | Column | Description        |
 | ----- | ------------------ |
 | Size | text size | 
