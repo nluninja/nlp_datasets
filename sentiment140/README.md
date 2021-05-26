@@ -4,7 +4,7 @@ This is the sentiment140 dataset. It contains 1,600,000 tweets extracted using t
 Sentiment140 was created by Alec Go, Richa Bhayani, and Lei Huang, who were Computer Science graduate students at Stanford University.
 
 ##Entries
-file: xx entries
+file: 16000000 entries
 
 ##URL
 http://help.sentiment140.com/for-students/
