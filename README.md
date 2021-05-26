@@ -18,7 +18,7 @@ git clone https://github.com/nluninja/nlp_datasets
 | [`Yelp! Reviews`](./yelp_reviews/) | reviews dataset from Yelp! for classification/sentiment analysis tasks| 1 to 5 rates | csv | en  |
 
 
-I appreciate your contribution to this repo, so don't hesitate to submit your changes via pull request for bug fixing or for adding a new dataset as well as well! 
+I appreciate your contribution to this repo, so don't hesitate to submit your changes via pull request for bug fixing or for adding a new dataset as well! 
 
 ```bash
 pull request https://github.com/nluninja/nlp_datasets
