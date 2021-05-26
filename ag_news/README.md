@@ -13,7 +13,7 @@ The file classes.txt contains a list of classes corresponding to each label.
 The files train.csv and test.csv contain all the training samples as comma-separated values.
 
 ## File Format
-text - csv
+
 
 ## Entries
 train 120,000  |	test 7,600   
@@ -21,7 +21,9 @@ train 120,000  |	test 7,600
 ## URL
 http://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html
 
-## Data Format
+## File Format
+text - csv  
+
 | Column | Description        |
 | ----- | ------------------ |
 |class_id | a number from 1 to 4 - 1 represents World, 2 represents Sports, 3 represents Business and 4 represents Sci/Tech. |
