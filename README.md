@@ -11,9 +11,11 @@ git clone https://github.com/nluninja/nlp_datasets
 
 | Name | Description | classes | format | language |
 | ---- | ----------- | ------- | ------ | -------- |
+| [`20 Newsgroups dataset`](./20_newsgroup/) | file set arranged into 20 topic folders | see corpus page | files | en  |
 | [`AG News Topic dataset`](./ag_news/) | News Topic Classification dataset - Antonio Gulli -  UniPi | World, Sports, Business, Sci/Tech | csv | en  |
-| [`CoNLL 2003`](./conll2003/) | named entity recognition dataset | People, Location, Organization, Misc | text / iob2 | en  |
+| [`CoNLL 2003`](./conll2003/) | named entity recognition dataset | People, Location, Organization, Misc | iob2 | en  |
 | [`emotions dataset`](./emotion_classification_dataset/) | emotion classification dataset which contains tweets labeled into 6 categories | joy, sadness, anger, fear, love, surprise | csv | en |
+| [`sentiment140 dataset`](./sentiment140_dataset/) | dataset which contains tweets labeled according to their polarity |negative, neutral, positive | csv | en |
 | [`Toxic Comments dataset Reviews`](./toxic_comments/) | Wikipedia comments labeled into 6 categories with score | toxic, severe_toxic, obscene, threat, insult, identity_hate| csv | en  |
 | [`Yelp! Reviews`](./yelp_reviews/) | reviews dataset from Yelp! for classification/sentiment analysis tasks| 1 to 5 rates | csv | en  |
 
