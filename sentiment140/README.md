@@ -1,15 +1,15 @@
 # Sentiment140- Classification|Sentiment Analysis
-##Description
+## Description
 This is the sentiment140 dataset. It contains 1,600,000 tweets extracted using the twitter api . The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment .
 Sentiment140 was created by Alec Go, Richa Bhayani, and Lei Huang, who were Computer Science graduate students at Stanford University.
 
-##Entries
+## Entries
 file: 16000000 entries
 
-##URL
+## URL
 http://help.sentiment140.com/for-students/
 
-##File Format
+## File Format
 text - csv
 
 | Column | Description        |
