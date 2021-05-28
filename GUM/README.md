@@ -1,4 +1,4 @@
-# Georgetown University Multilayer Corpus
+# Georgetown University Multilayer Corpus | Entity Extraction
 ## Description
 The GUM corpus was collected and annotated at Georgetown University. For more
 information, see the [LICENSE](https://corpling.uis.georgetown.edu/gum),
@@ -12,14 +12,13 @@ train: 44111  entries | test:  18236 entries
 ## URL
 https://github.com/amir-zeldes/gum
 
-
 ## File Format
 text - CoNLL - IOB2
 
 | Column | Description       |
 | ----- | ------------------ |
 |token | a string feature |
-|ner_tag| a classification label, with possible values including O, B-PER, I-PER, B-ORG (3), I-ORG (4). |
+|ner_tag| a classification label, [22 classes](./data/classes.txt) |
 
 
 ## Example
