@@ -21,7 +21,7 @@ text - CoNLL - IOB2
 | Column | Description       |
 | ----- | ------------------ |
 |token | a string feature |
-|ner_tag| a classification label, [22 classes](./data/classes.txt) |
+|ner_tag| a classification label, [23 classes](./data/classes.txt) |
 
 
 ## Example
