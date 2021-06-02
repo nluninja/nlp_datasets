@@ -25,3 +25,38 @@ of instances with others containing a lower concentration)"
 
 Each part of the dataset has its own license. For license information, see the
 LICENSE file in each subdirectory.
+
+## Entries
+train: 19787  entries | test:  5501 entries
+
+## URL
+https://github.com/dstl/re3d
+
+## File Format
+text - CoNLL - IOB2
+
+| Column | Description       |
+| ----- | ------------------ |
+|token | a string feature |
+|ner_tag| a classification label, [22 classes](./data/classes.txt) |
+
+
+## Example
+<pre>
+The	O
+last	O
+meeting	O
+of	O
+the	B-Organisation
+Small	I-Organisation
+Group	I-Organisation
+took	O
+place	O
+in	O
+Washington	B-Location
+,	I-Location
+D	I-Location
+.	I-Location
+C	I-Location
+.	I-Location
+</pre>
