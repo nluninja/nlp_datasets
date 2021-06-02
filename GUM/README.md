@@ -1,12 +1,13 @@
-# Georgetown University Multilayer Corpus | Entity Extraction
+# Georgetown University Multilayer Corpus for NER | Entity Extraction
 ## Description
-The GUM corpus was collected and annotated at Georgetown University.
-For more
-information, see the [LICENSE](https://corpling.uis.georgetown.edu/gum),
+The GUM corpus was collected and annotated at Georgetown University.  
+
+For more information, see the [LICENSE](https://corpling.uis.georgetown.edu/gum),
 and the following publication:
 _Zeldes, Amir (2016) "The GUM Corpus: Creating Multilayer Resources in the
-Classroom". Language Resources and Evaluation._
+Classroom". Language Resources and Evaluation._  
 
+This corpus version has been modified from the original one to focus on NER about a set of 22 classes, and transformed into IOB2/CoNLL like format.
 
 ## Entries
 train: 44111  entries | test:  18236 entries
