@@ -1,3 +1,7 @@
+SemCor Dataset | WSD
+
+
+
 =================================================================================================================================
 						WORD SENSE DISAMBIGUATION
 				A UNIFIED EVALUATION FRAMEWORK AND EMPIRICAL COMPARISON
