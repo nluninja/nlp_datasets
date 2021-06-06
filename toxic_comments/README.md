@@ -1,5 +1,5 @@
 # Toxic Comments Classification Dataset - Classification
-##Description
+## Description
 
 The Toxic Comments Classification Dataset consists of a large number of Wikipedia comments which have been labeled by human raters for toxic behavior.   
 
@@ -7,13 +7,13 @@ The dataset has been provided by the Conversation AI team, a research initiative
 
 The dataset has been published as part of a Kaggle Challenge, which asked data scientists to build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate better than AI Team’s current models.
 
-##Entries
+## Entries
 train xx  |	test xx  
 
-##URL 
+## URL 
 https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
 
-##Data Format
+## Data Format
 text - csv  
 
 | Column | Description        |
