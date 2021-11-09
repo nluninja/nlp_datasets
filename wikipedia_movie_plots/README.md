@@ -5,7 +5,7 @@ The dataset contains descriptions of movies from around the world scraped from W
 It can be used for Text Classification to predict movie genre based on plot description.
 
 ## Entries
-34,886
+34,886 entries
 
 ## File Format
 text - csv  
