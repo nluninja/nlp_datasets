@@ -14,6 +14,7 @@ git clone https://github.com/nluninja/nlp_datasets
 | [`20 Newsgroups dataset`](./20_newsgroup/) | file set arranged into 20 topic folders | see corpus page | files | en  |
 | [`AG News Topic dataset`](./ag_news/) | News Topic Classification dataset - Antonio Gulli -  UniPi | World, Sports, Business, Sci/Tech | csv | en  |
 | [`CoNLL 2003`](./conll2003/) | named entity recognition dataset | People, Location, Organization, Misc | conll/iob2 | en  |
+| [`CoNLL 2003`](./conll2003/) | named entity recognition dataset | People, Location, Organization, Misc | conll/iob2 | en  |
 | [`emotions classification dataset`](./emotion_classification_dataset/) | emotion classification dataset which contains tweets labeled into 6 categories | joy, sadness, anger, fear, love, surprise | csv | en |
 | [`Georgetown University Multilayer corpus in CoNLL`](./GUM/) | CoNLL tagged corpus for entity extraction| 23 classes (person, substance, quantity, time, place, organization) | conll/iob2 | en  |
 | [`Relationship and Entity Extraction Evaluation Dataset in CoNLL`](./re3d/) | CoNLL tagged corpus for entity extraction| 21 classes (person, temporal, weapon, MilitaryPlatform, quantity, organization) | conll/iob2 | en  |
