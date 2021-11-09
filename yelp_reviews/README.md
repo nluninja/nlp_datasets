@@ -9,7 +9,9 @@ The Yelp reviews full star dataset is constructed by randomly taking 130,000 tra
 The files train.csv and test.csv contain all the training samples as comma-sparated values. There are 2 columns in them, corresponding to class index (1 to 5) and review text. The review texts are escaped using double quotes ("), and any internal double quote is escaped by 2 double quotes (""). New lines are escaped by a backslash followed with an "n" character, that is "\n".
 
 ## Entries
-train 650,000  |	test 50,000   
+
+ train 650,000  |	test 50,000   
+
 
 ## URL
 http://www.yelp.com/dataset_challenge
