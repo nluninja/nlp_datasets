@@ -1,39 +1,31 @@
-# AG's News Topic Dataset - Classification
+# Wikipedia Movie Plots - Classification
 ## Description
 
-AG (Antonio Gulli) 's News Topic Dataset is a collection of more than 1 million news articles. News articles have been gathered from more than 2000  news sources by ComeToMyHead in more than 1 year of activity. ComeToMyHead is an academic news search engine which has been running since July, 2004. The dataset is provided by the academic community for research purposes in data mining (clustering, classification, etc), information retrieval (ranking, search, etc), xml, data compression, data streaming, and any other non-commercial activity. 
-
-* G. M. Del Corso, A. Gulli, and F. Romani. Ranking a stream of news. In Proceedings of 14th International World Wide Web Conference, pages 97–106, Chiba, Japan, 2005.  
-  
-* A. Gulli. The anatomy of a news search engine. In Proceedings of 14th International World Wide Web Conference, pages 880–881, Chiba, Japan, 2005.
-
-The AG's news topic classification dataset is constructed by choosing 4 largest classes from the original corpus. Each class contains 30,000 training samples and 1,900 testing samples. The total number of training samples is 120,000 and testing 7,600.
-
-The file classes.txt contains a list of classes corresponding to each label.
-The files train.csv and test.csv contain all the training samples as comma-separated values.
-
-## File Format
-
+The dataset contains descriptions of movies from around the world scraped from WikiPedia. 
+It can be used for Text Classification to predict movie genre based on plot description.
 
 ## Entries
-train 120,001  | test 7,553   
-
-## URL
-http://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html
+34,886
 
 ## File Format
 text - csv  
 
 | Column | Description        |
 | ----- | ------------------ |
-|class_id | a number from 1 to 4 - 1 represents World, 2 represents Sports, 3 represents Business and 4 represents Sci/Tech. |
-|title| the news title|
-|description | the news content |
+|Release Year | Year in which the movie was released |
+|Title| Movie title|
+|Origin | Origin of movie (i.e. American, Bollywood, Tamil, etc.) |
+|Director | Director(s)|
+|Cast |Main actor and actresses |
+|Genre | Movie Genre(s) |
+|Wiki Page| URL of the Wikipedia page from which the plot description was scraped /
+|Plot| Long form description of movie plot (WARNING: May contain spoilers!!!) |
 
 ## Example
 <pre>
-"3","Wall St. Bears Claw Back Into the Black (Reuters)","Reuters - Short-sellers, Wall Street's dwindling\band of ultra-cynics, are seeing green again."
-"3","Carlyle Looks Toward Commercial Aerospace (Reuters)","Reuters - Private investment firm Carlyle Group,\which has a reputation for making well-timed and occasionally\controversial plays in the defense industry, has quietly placed\its bets on another part of the market."
+Release Year,Title,Origin/Ethnicity,Director,Cast,Genre,Wiki Page,Plot
+1901,Kansas Saloon Smashers,American,Unknown,,unknown,https://en.wikipedia.org/wiki/Kansas_Saloon_Smashers,"A bartender is working at a saloon, serving drinks to customers. After he fills a stereotypically Irish man's bucket with beer, Carrie Nation and her followers burst inside. They assault the Irish man, pulling his hat over his eyes and then dumping the beer over his head. The group then begin wrecking the bar, smashing the fixtures, mirrors, and breaking the cash register. The bartender then sprays seltzer water in Nation's face before a group of policemen appear and order everybody to leave.[1]"
+1901,Love by the Light of the Moon,American,Unknown,,unknown,https://en.wikipedia.org/wiki/Love_by_the_Light_of_the_Moon,"The moon, painted with a smiling face hangs over a park at night. A young couple walking past a fence learn on a railing and look up. The moon smiles. They embrace, and the moon's smile gets bigger. They then sit down on a bench by a tree. The moon's view is blocked, causing him to frown. In the last scene, the man fans the woman with his hat because the moon has left the sky and is perched over her shoulder to see everything better."
 </pre>
 
 
