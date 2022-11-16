@@ -1,20 +1,25 @@
-# YELP reviews - Classification/Sentiment Analysis
+# Italian NLP Corpus - Classification/Sentiment Analysis
 ## Description
 
-The Yelp reviews dataset consists of reviews from Yelp. It is extracted from the Yelp Dataset Challenge 2015 data. 
+__Corpus of Sentences rated with Human Complexity Judgments__
 
-The Yelp reviews full star dataset is constructed by Xiang Zhang [mailto:xiang.zhang@nyu.edu] from the above dataset. It is first used as a text classification benchmark in the following paper: __Xiang Zhang, Junbo Zhao, Yann LeCun. Character-level Convolutional Networks for Text Classification. Advances in Neural Information Processing Systems 28 (NIPS 2015)__.
+This corpus contains 1,123 Italian sentences and 1,200 English sentences rated by humans with a judgment of complexity. Judgments were collected through a crowdsourcing task in which 20 native speakers of each language were asked to judge how difficult they perceived a given sentence on a complexity scale from 1 (i.e. “very easy”) to 7 (i.e. “very difficult”). 
 
-The Yelp reviews full star dataset is constructed by randomly taking 130,000 training samples and 10,000 testing samples for each review star from 1 to 5. In total there are 650,000 trainig samples and 50,000 testing samples.   
-The files train.csv and test.csv contain all the training samples as comma-sparated values. There are 2 columns in them, corresponding to class index (1 to 5) and review text. The review texts are escaped using double quotes ("), and any internal double quote is escaped by 2 double quotes (""). New lines are escaped by a backslash followed with an "n" character, that is "\n".
+The datasets of sentences used for the task were taken from two different manually revised treebanks: the newspaper section of the Italian Universal Dependency Treebank (IUDT) for the Italian experiment, and the automatically converted Wall Street Journal section of the Penn Treebank for the English experiment."
+
+
+___Brunato D., De Mattei L., Dell’Orletta F., Iavarone B., Venturi G. (2018) “Is this Sentence Difficult? Do you Agree?“. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018), 31–4 November, Bruxelles.__
+
 
 ## Entries
 
- train 650,000  |	test 50,000   
+ train: 
+ * Italian 1,123 sentences
+ * English 1,200 sentences
 
 
 ## URL
-http://www.yelp.com/dataset_challenge
+http://www.italianlp.it/
 
 ## Format
 text - csv  
