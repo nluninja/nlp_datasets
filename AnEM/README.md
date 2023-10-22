@@ -1,5 +1,5 @@
-# [corpus name] - [Classification|Sentiment Analysis|Named Entity Extraction]
-##Description
+# The Anatomical Entity Mention (AnEM) corpus - Named Entity Extraction
+## Description
 The abstracts contained in the corpus are from PubMed, a database of
 the U.S. National Library of Medicine (NLM). Please see the NLM page
 on copyright information regarding the copyright of the abstracts:
@@ -21,10 +21,11 @@ Specifically:
 
 http://www.nactem.ac.uk/anatomy/data/AnEM-1.0.4.tar.gz
 
-##Entries
-train: 47820 entrie  | test:  xx docs
 
-##URL / Attibution
+## Entries
+train: 71697 entries  | test:  45939 entries
+
+## URL / Attibution
 
 Tomoko Ohta, Sampo Pyysalo, Jun'ichi Tsujii and Sophia Ananiadou (2012).
 Open-domain Anatomical Entity Mention Detection. In Proceedings of ACL 2012
@@ -34,12 +35,33 @@ For more information, see:
 
 http://www.nactem.ac.uk/anatomy/
 
-##File Format
-please insert the file format, i.e. csv, iob1, iob2
+## File Format
+IOB2 
 
-please describe the data format here 
+| Column | Description        |
+| ----- | ------------------ |
+|id | a string feature. |
+| start | begin character position |
+| end chunk_tags| end character position|
+|ner_tags| a list of classification labels|
+
+## Labels
+
+Anatomical_system
+Cell
+Cellular_component
+Developing_anatomical_structure
+Immaterial_anatomical_entity
+Multi-tissue_structure
+Organ
+Organism_subdivision
+Organism_substance
+Pathological_formation
+Tissue
+
 
 ## Example
 <pre>
-copy here a data sample from the dataset
+Ventricular	0	11	B-Multi-tissue_structure
+fibrillation	12	24	O
 </pre>
