@@ -21,6 +21,7 @@ git clone https://github.com/nluninja/nlp_datasets
 | [`Toxic Comments dataset Reviews`](./toxic_comments/) | Wikipedia comments labeled into 6 categories with score | toxic, severe_toxic, obscene, threat, insult, identity_hate| csv | en  |
 | [`WikiGold Dataset`](./wikigold/) | named entity recognition dataset | People, Location, Organization, Misc | conll/iob2 | en  |
 | [`Wikipedia Movie Plots dataset`](./wikipedia_movie_plots/) | descriptions of movies from around the world scraped from WikiPedia | Genre Classes | csv | en  |
+| [`WNUT 17 Emerging Entities Dataset`](./WNUT17/) | Twitter/StackOverflow data for discovering emerging entities | Entity Classes | conll/iob2 | en  |
 | [`Yelp! Reviews`](./yelp_reviews/) | reviews dataset from Yelp! for classification/sentiment analysis tasks| 1 to 5 rates | csv | en  |
 
 
