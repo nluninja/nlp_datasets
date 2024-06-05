@@ -14,6 +14,7 @@ git clone https://github.com/nluninja/nlp_datasets
 | [`20 Newsgroups dataset`](./20_newsgroup/) | file set arranged into 20 topic folders | see corpus page | files | en  |
 | [`The Anatomical Entity Mention (AnEM) corpus`](./AnEM/) | PubMeb dataset | |Anatomical_system, Cell,Cellular_component, Developing_anatomical_structure, Immaterial_anatomical_entity,  Multi-tissue_structure, Organ, Organism_subdivision, Organism_substance, Pathological_formation, Tissue | conll/iob2 | en  |
 | [`AG News Topic dataset`](./ag_news/) | News Topic Classification dataset - Antonio Gulli -  UniPi | World, Sports, Business, Sci/Tech | csv | en  |
+| [`BBC News`](./bbc_news/) | BBC News Classification dataset| business, entertainment, politics, sport, tech | csv | en  |
 | [`CoNLL 2003`](./conll2003/) | named entity recognition dataset | People, Location, Organization, Misc | conll/iob2 | en  |
 | [`emotions classification dataset`](./emotion_classification_dataset/) | emotion classification dataset which contains tweets labeled into 6 categories | joy, sadness, anger, fear, love, surprise | csv | en |
 | [`Georgetown University Multilayer corpus in CoNLL`](./GUM/) | CoNLL tagged corpus for entity extraction| 23 classes (person, substance, quantity, time, place, organization) | conll/iob2 | en  |
